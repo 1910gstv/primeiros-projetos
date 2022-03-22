@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@500&family=Kulim+Park:wght@600&family=Lalezar&family=M+PLUS+Code+Latin:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 1), rgba(17, 0, 26, 1), rgba(48, 12 ,49, 1));
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: -18px;
+    border-bottom: 0.5px solid #ffffff;
+ 
+}
+#img-morcego{
+    width: 50px;
+}
+.nav-cab{
+    display: flex;
+    gap: 32px
+}
+.texto-cab{
+    font-family: 'kulim park';
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+}
+.principal{
+padding-top: 5px;
+margin-bottom: 36px;
+}
+.secao-prin{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin-right: 100px;
+}
+.divisao-prin{
+display: flex;
+flex-direction: column;
+align-items:flex-start;
+gap: 12px;
+margin-left: 75px;
+}
+#titulo{
+font-family:'lalezar';
+font-weight: 400;
+font-size: 96px;
+color: #ffffff;
+
+}
+#subtitulo-titulo{
+    font-family:'m plus code latin';
+    font-weight: 500;
+    font-size: 36px;
+    margin-top: -65px;
+    padding-bottom: 12px;
+    color:#ffffff
+}
+#subtitulo-texto{
+    font-family: 'lalezar';
+    font-weight: 400;
+    font-size: 40px;
+    color: #ffffff;
+}
+.paragrafo-princ{
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 12px;
+}
+.texto-prin{
+    font-family: 'kulim park';
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+}
+.div-but{
+    padding-top: 25px;
+    margin-left: 77px;
+}
+#botao{
+    width: 237px;
+    height: 69px;
+    background: white;
+    border: 0.5px solid #ffffff;
+    border-radius: 12px;
+    box-shadow: 12px 12px 30px 2px #000000;
+    font-family: 'alumni sans';
+    font-weight: 800;
+    font-size: 50px;
+    color: rgba(59, 0, 95, 1);
+    ;
+}
+#imagem-prin{
+margin-top: 45px; 
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+#rod{
+    color: #ffffff;
+    font-size: 9px;
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@500&family=Kulim+Park:wght@600&family=Lalezar&family=M+PLUS+Code+Latin:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 1), rgba(17, 0, 26, 1), rgba(48, 12 ,49, 1));
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    
+}
+.nav-cab{
+    display: flex;
+    gap: 36px;
+    
+}
+.parag-cab{
+    color: white;
+    font-family: 'Kulim park';
+    font-weight: 400;
+    font-size: 15px;
+
+}
+.imagem-cab{
+    margin-left: 30px;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+
+    padding: 36;
+}
+.secao-principal-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 32px;
+    padding: 12px;
+    
+}
+.divisao-principal-principal{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.titulo-principal{
+    font-family: 'Lalezar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    color: white;
+}
+#sub-principal{
+    font-family: 'M PLUS Code Latin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+    margin-top: -55px;
+    padding-bottom: 36px;
+}
+#vampiro{
+    font-family: 'Lalezar';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+color: white;
+}
+.paragrafos-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px
+}
+.paragrafo-principal{
+    line-height: 50px;
+    font-family: 'Kulim Park';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+
+}
+.imagem-principal{
+    margin: 24px
+}
+.botao{
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    height: 70;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    color: #3B005F;
+    margin-left: 120px;
+}
